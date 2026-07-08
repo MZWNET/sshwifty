@@ -63,7 +63,7 @@
       :screens="tab.tabs"
       :view-port="viewPort"
       @indicated="tabIndicate"
-      @indicationDismissed="tabDismissIndicator",
+      @indicationDismissed="tabDismissIndicator"
       @updated="tabUpdated"
       @stopped="tabStopped"
     >
